@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Planner Mini Project</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Study Planner</h1>
+        <p class="subtitle">Manage your daily study tasks efficiently</p>
+
+        <!-- Task Input Section -->
+        <div class="input-section">
+            <input
+                type="text"
+                id="taskInput"
+                placeholder="Enter a study task..."
+            />
+            <button id="addTaskBtn">Add Task</button>
+        </div>
+
+        <!-- Validation Message -->
+        <p id="errorMsg"></p>
+
+        <!-- Motivational Quote Section (Fetch API) -->
+        <div class="quote-box">
+            <h3>Motivational Quote</h3>
+            <p id="quote">Loading quote...</p>
+        </div>
+
+        <!-- Task List -->
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
